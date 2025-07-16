@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Communify - MERN Social Platform with Real-Time Chat & Video Calls",
-    des: "A Full-Stack MERN Social Platform with Real-Time Chat & Video Calls Modern social networking app built with the MERN stack, featuring JWT authentication, real-time messaging, video calls (Stream SDK), and a beautifully themed UI with DaisyUI.",
-    img: "/p1.svg",
+    title: "Communify – Real-Time Chat & Video Platform",
+    des: "Communify – A Full-Stack MERN Social Platform with Real-Time Chat & Video Calls for learning languages",
+    img: "/p2.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/CodeByOS/Communify-MERN-Social-Platform",
+    link: "https://communify-app.onrender.com/",
   },
   {
     id: 2,
