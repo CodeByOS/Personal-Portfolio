@@ -5,7 +5,7 @@ import { CircleArrowOutUpRight } from 'lucide-react'
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
         <h1 className="heading">
             Explore some of my{' '}
             <span className="text-purple-400 font-semibold">latest projects</span>
