@@ -8,7 +8,7 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
         <h1 className="heading">
             Explore some of my{' '}
-            <span className="text-purple-400 font-semibold">latest projects</span>
+            <span className="text-purple-400 font-bold">latest projects</span>
         </h1>
 
     <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 mt-10">
