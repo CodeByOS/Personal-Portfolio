@@ -19,9 +19,16 @@ import {
   SiJavascript,
   SiMysql,
   SiJirasoftware,
+  SiTailwindcss,
+  SiDaisyui,
 } from "react-icons/si";
 
+import { HiOutlineCubeTransparent } from "react-icons/hi2";
+
 const skills = [
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
+  { name: "DaisyUI", icon: <SiDaisyui className="text-yellow-400" /> },
+  { name: "Shadcn UI", icon: <HiOutlineCubeTransparent className="text-gray-500" /> },
   { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" /> },
   { name: "React", icon: <FaReact className="text-sky-500" /> },
   { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
