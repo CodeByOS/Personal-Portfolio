@@ -5,6 +5,8 @@ import { FloatingNav } from "@/components/ui/FloatingNavBar";
 import { navItems } from "@/data";
 import Skills from "@/components/Skills";
 import Experiences from "@/components/Experiences";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <RecentProjects />
         <Skills />
         <Experiences />
+        <Contact />
+        <Footer />
       </div>
     </main>
   );

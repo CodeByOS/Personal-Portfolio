@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { Navigation } from 'lucide-react';
+import { Download, Navigation } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -32,16 +32,26 @@ const Hero = () => {
 
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Oussama SAIDI, a MERN stack developer && Business Intelligence Analyst Based in Morocco.
+            Hi, I&apos;m Oussama SAIDI, a MERN stack developer & Business Intelligence Analyst Based in Morocco.
           </p>
 
-          <a href="#about">
-            <MagicButton 
-              title="Show my project"
-              icon={<Navigation size={18} className="text-white" />}
+          <div className="flex flex-col sm:flex-row gap-4 mt-4">
+            <a href="#projects">
+              <MagicButton 
+                title="Show my project"
+                icon={<Navigation size={18} className="text-white" />}
+                position="left"
+              />
+            </a>
+
+            <a href="/resume.pdf" download>
+              <MagicButton 
+              title="Download Resume"
+              icon={<Download size={18} className="text-white" />}
               position="left"
             />
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </section>
