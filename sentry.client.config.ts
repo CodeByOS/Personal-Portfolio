@@ -6,6 +6,8 @@ Sentry.init({
     Sentry.feedbackIntegration({
       // Additional SDK configuration goes in here, for example:
       colorScheme: "system",
+      disableServerWebpackPlugin: true,
+      disableClientWebpackPlugin: true,
     }),
   ],
 });
