@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                 title={loading ? 'Sending...' : 'Submit'}
                 type="submit"
                 disabled={loading}
-                className="w-fit"
+                otherClasses="w-fit"
             />
         </div>
     </form>
