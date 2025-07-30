@@ -75,7 +75,7 @@ export const projects = [
     title: "Communify – Real-Time Chat & Video Platform",
     des: "Communify – A Full-Stack MERN Social Platform with Real-Time Chat & Video Calls for learning languages",
     img: "/communify.png",
-    iconLists: ["/mongoDB.svg", "/express.jpg", "/re.svg", "Node.js.svg", "/tail.svg", "/daisy.png", "/s.svg"],
+    iconLists: ["/MongoDB.svg", "/express.jpg", "/re.svg", "Node.js.svg", "/tail.svg", "/daisy.png", "/s.svg"],
     link: "https://communify-app.onrender.com/",
   },
   {
