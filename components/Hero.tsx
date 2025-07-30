@@ -1,8 +1,10 @@
+"use client";
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { Download, Navigation } from 'lucide-react';
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -19,11 +21,18 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
-          </h2>
+          <motion.img
+            src="/profile.jpg"
+            alt="Oussama SAIDI"
+            className="w-33 h-33 rounded-full object-cover mb-6 border-6 border-black shadow-lg"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            whileHover={{ scale: 1.1, boxShadow: "0 0 20px #9333ea" }}
+          />
+
 
           <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-6xl" 
