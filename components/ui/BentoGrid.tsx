@@ -111,34 +111,34 @@ export const BentoGridItem = ({
         { id === 2 && <GlobeDemo />}
 
         {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {["React.js", "Next.js", "Python"].map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-              </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {["MongoDB", "Node.js", "Express.js"].map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
+          <div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-1">
+            {/* tech stack lists */}
+            <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
+              {["React.js", "Next.js", "Python"].map((item, i) => (
+                <span
+                  key={i}
+                  className="py-2 px-4 lg:py-3 lg:px-3 text-xs lg:text-sm opacity-50 
+                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                >
+                  {item}
+                </span>
+              ))}
+              <span className="py-4 px-3 lg:py-3 lg:px-4 rounded-lg text-center bg-[#10132E]"></span>
             </div>
-          )}
+            <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
+              <span className="py-4 px-3 lg:py-3 lg:px-4 rounded-lg text-center bg-[#10132E]"></span>
+              {["MongoDB", "Node.js", "Express.js"].map((item, i) => (
+                <span
+                  key={i}
+                  className="py-2 px-3 lg:py-3 lg:px-3 text-xs lg:text-sm opacity-50 
+                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
           { id === 6 && (
             <div className="mt-5 relative">
