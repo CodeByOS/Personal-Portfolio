@@ -26,7 +26,7 @@ const Hero = () => {
           <motion.img
             src="/profile.jpg"
             alt="Oussama SAIDI"
-            className="w-33 h-33 rounded-full object-cover mb-6 border-6 border-black shadow-lg"
+            className="w-33 h-33 rounded-full object-cover mb-6 border-6 border-[#00031a] shadow-lg"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
