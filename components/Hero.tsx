@@ -58,16 +58,16 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
             I&apos;m{" "}
-            <span className="font-extrabold text-white underline decoration-indigo-500 underline-offset-4">
+            <span className="font-extrabold text-white underline decoration-indigo-500 underline-offset-4 font-poppins">
               Oussama SAIDI
             </span>
             , a Bachelor student in
-            <span className="font-extrabold text-white underline decoration-indigo-500 underline-offset-4">
+            <span className="font-extrabold text-white underline decoration-indigo-500 underline-offset-4 font-sans">
               {" "}
               Software & Information Systems Engineering
             </span>{" "}
             and a passionate{" "}
-            <span className="font-extrabold text-white underline decoration-indigo-500 underline-offset-4">
+            <span className="font-extrabold text-white underline decoration-indigo-500 underline-offset-4 font-sans">
               MERN Stack Developer
             </span>
             . I build efficient, user-focused digital products and turn complex
