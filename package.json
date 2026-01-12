@@ -12,7 +12,7 @@
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^10.5.0",
     "@react-three/fiber": "^9.0.0-alpha.8",
-    "@sentry/nextjs": "^9.40.0",
+    "@sentry/nextjs": "^10.33.0",
     "@tabler/icons-react": "^3.34.0",
     "clsx": "^2.1.1",
     "core-js": "^3.44.0",
