@@ -27,13 +27,13 @@ This project powers the personal portfolio of **Oussama SAIDI** and includes:
 
 ## Getting Started
 
-### 1) Install dependencies
+### 1) Install dependencies :
 
 ```bash
 npm ci
 ```
 
-### 2) Configure environment variables
+### 2) Configure environment variables :
 
 Create `.env.local` in the project root:
 
@@ -45,7 +45,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
 
 These values are required for the contact form in `components/Contact.tsx`.
 
-### 3) Start the development server
+### 3) Start the development server :
 
 ```bash
 npm run dev
