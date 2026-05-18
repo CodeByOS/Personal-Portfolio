@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A modern developer portfolio built with **Next.js 16**, **React 19**, **Tailwind CSS**, and animated UI components.
+A modern developer portfolio built with **Next.js 16**, **React 19**, **Tailwind CSS**, and animated UI components **Acternity UI**.
 
 ## Overview
 
