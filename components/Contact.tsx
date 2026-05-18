@@ -82,7 +82,7 @@ const Contact: React.FC = () => {
     </form>
 
     {success === true && (
-        <p className="text-green-500 mt-4 text-center">Message sent successfully.!</p>
+        <p className="text-green-500 mt-4 text-center">Message sent successfully..!</p>
     )}
     {success === false && (
         <p className="text-red-500 mt-4 text-center">Failed to send message. Try again.!</p>
