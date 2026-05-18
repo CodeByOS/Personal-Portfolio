@@ -70,8 +70,3 @@ components/   # Portfolio UI sections and reusable UI components
 data/         # Portfolio content (projects, skills, navigation, social links)
 public/       # Static assets (images, icons, resume, etc.)
 ```
-
-## Notes
-
-- The portfolio content is mainly managed in `data/index.ts`.
-- Sentry configuration files are present in the root (`sentry.*.config.ts`, `instrumentation*.ts`).
