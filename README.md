@@ -70,3 +70,4 @@ components/   # Portfolio UI sections and reusable UI components
 data/         # Portfolio content (projects, skills, navigation, social links)
 public/       # Static assets (images, icons, resume, etc.)
 ```
+
